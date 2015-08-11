@@ -1,5 +1,3 @@
-# This repo contains the job assignment for potential Android developers at Fishbrain, you can apply for a job at: jobs@fishbrain.com
-
 ### FishBrain Catches Master/Detail
 
 The goal of this project is to assess Android development skills. It is designed to be challenging, and evaluate all aspects of development.
@@ -34,4 +32,9 @@ Feel free to use the API level that you feel more confortable and any library th
 The application has to be runnable and working without major issues.
 
 Ask any questions related to the implementation by sending an email to victor@fishbrain.com or niklas@fishbrain.com, but stackoverflow and google are your first stop for any obvious questions.
+
+**What is this?**
+
+This repo contains the job assignment for potential Android developers at Fishbrain, you can apply for a job at: jobs@fishbrain.com
+
 
