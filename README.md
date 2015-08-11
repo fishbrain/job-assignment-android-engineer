@@ -2,10 +2,10 @@
 
 The goal of this project is to assess Android development skills. It is designed to be challenging, and evaluate all aspects of development.
 
-- Project Name: FIBCatches
-- Project Goal: Creating a simplified version of the FishBrain app that just includes a simplified catches master/detail view.
-- Technology: Java
-- Deliverables: The solution should be sent using the greenhouse.io link that will be provided during the interview process.
+- **Project Name:** FIBCatches
+- **Project Goal:** Creating a simplified version of the FishBrain app that just includes a simplified catches master/detail view.
+- **Technology:** Java
+- **Deliverables:** The solution should be sent using the greenhouse.io link that will be provided during the interview process.
 
 **Mockups**: https://s3-eu-west-1.amazonaws.com/fishbrain/misc/Mobile+task.jpg
 
