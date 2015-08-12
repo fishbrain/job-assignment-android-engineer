@@ -17,10 +17,12 @@ The API has the concept of verbosity. When requesting a specific resource we can
 
 **Example querying of the API:**
 
-- GET paged catches - https://rutilus.fishbrain.com/catches?page=3
-- GET specific catch - https://rutilus.fishbrain.com/catches/81?verbosity=3
-- GET Sorting the previous results by the property id in descending order  https://rutilus.fishbrain.com/catches?page=3&q[s]=id+desc 
-- GET Filtering by specific parameter - https://rutilus.fishbrain.com/catches/81?verbosity=3&q[“nickname”]=Mathias
+- Get paged catches - https://rutilus.fishbrain.com/catches?page=3
+- Get specific catch - https://rutilus.fishbrain.com/catches/81?verbosity=3
+
+- Filtering by specific parameter - https://rutilus.fishbrain.com/catches/81?verbosity=3&q[species_id_eq]=258
+
+- supported filters: species_id_eq, weight_lt, weight_gt, owner_id_eq, description_cont and more. 
 
 
 **Guidelines**
