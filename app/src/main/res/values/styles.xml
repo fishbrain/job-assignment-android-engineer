@@ -1,0 +1,24 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Title" parent="@android:style/TextAppearance.Medium">
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="Normal" parent="@android:style/TextAppearance.Small">
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="Normal.Bold" parent="Normal">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Subtitle" parent="android:TextAppearance.Small">
+        <item name="android:color">@color/light_grey</item>
+    </style>
+
+</resources>
