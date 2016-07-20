@@ -1,5 +1,6 @@
 package com.fishbrain.android.network.interactor;
 
+import java.io.IOException;
 import java.util.Map;
 
 /**
@@ -12,14 +13,7 @@ public interface CatchesInteractor {
      * This method is used for fetching the catches from the API
      *
      * @param pageId    the pageId that we want to fetch from the API
-     * @param filters   the filters {@link Map} that contains the filters the user applied
      */
-    void fetchCatches(String pageId, Map filters);
+    void fetchCatches(String pageId) throws IOException;
 
-    /**
-     * This method is used for fetching the details of a single catch from the API
-     *
-     * @param catchId   the id of the catch
-     */
-    void fetchCatch(String catchId);
 }

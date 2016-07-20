@@ -1,5 +1,6 @@
 package com.fishbrain.android.domain;
 
+
 import com.google.gson.annotations.SerializedName;
 
 import java.util.Calendar;
