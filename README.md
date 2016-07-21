@@ -5,7 +5,7 @@ The goal of this project is to assess Android development skills. It is designed
 - **Project Name:** Fishbrain Assignment
 - **Project Goal:** Creating a simplified version of the Fishbrain app that just includes a simplified catches view.
 - **Technology:** Java
-- **Deliverables:** The solution should be sent as a pull request in this github project
+- **Deliverables:** The solution should be sent using the greenhouse.io link that will be provided during the interview process. 
 
 **Mockups**: [TBD]
 
