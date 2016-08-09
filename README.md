@@ -3,7 +3,7 @@
 The goal of this project is to assess Android development skills. It is designed to be challenging, and evaluate all aspects of development.
 
 - **Project Name:** Fishbrain Assignment
-- **Project Goal:** Creating a simplified version of the Fishbrain app that just includes a simplified catches view.
+- **Project Goal:** Creating a simplified version of the Fishbrain app that just includes a simple catches list.
 - **Technology:** Java
 - **Deliverables:** The solution should be sent using the greenhouse.io link that will be provided during the interview process. 
 
@@ -39,13 +39,13 @@ The API has the concept of verbosity. When requesting a specific resource we can
 
 The solution needs to contain tests and the design/structure of the application code should be production ready.
 
-Feel free to use the API level that you feel more confortable and any library that helps.
+Feel free to use the API level that you feel more comfortable with and any library that helps.
 
 The application has to be runnable and working without major issues.
 
 Include a readme file explaining potential challenges you faced and issues you met during the assignment.
 
-Ask any questions related to the implementation by sending an email to dimitris@fishbrain.com or niklas@fishbrain.com, but Stackoverflow and Google are your first stops for any obvious questions.
+Ask any questions related to the implementation by sending an email to dimitris@fishbrain.com or niklas@fishbrain.com, but Stack Overflow and Google are your first stops for any obvious questions.
 
 **What is this?**
 
