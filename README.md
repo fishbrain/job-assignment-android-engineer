@@ -31,15 +31,12 @@ The API has the concept of verbosity. When requesting a specific resource we can
 **Example querying of the API:**
 - Get paged catches - https://rutilus.fishbrain.com/catches?page=3
 - Get specific catch - https://rutilus.fishbrain.com/catches/81?verbosity=3
-- Filtering by specific parameter - https://rutilus.fishbrain.com/catches/81?verbosity=3&q[species_id_eq]=258
-- supported filters: species_id_eq, weight_lt, weight_gt, owner_id_eq, description_cont and more.
-
 
 **General Guidelines**
 
 The solution needs to contain tests and the design/structure of the application code should be production ready.
 
-Feel free to use the API level that you feel more comfortable with and any library that helps.
+Feel free to use the API level that you feel more comfortable with and any library that helps. Just be ready to explain the reasons behind your choices :)
 
 The application has to be runnable and working without major issues.
 
