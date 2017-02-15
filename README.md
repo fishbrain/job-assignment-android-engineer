@@ -38,7 +38,7 @@ The API has the concept of verbosity. When requesting a specific resource we can
 
 **General Guidelines**
 
-A base project is provided in this Git-repo as a starting point so you don't have to implement the networking yourself. However, if you'd prefer - feel free to create a project from scratch.
+A base project is provided in this Git-repo as a starting point so you don't have to implement the networking yourself. However, if you want to you can create a project from scratch.
 
 The solution needs to contain tests and the design/structure of the application code should be production ready.
 
