@@ -27,7 +27,7 @@ public class MainActivity extends BaseActivity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.main);
 		EventBus.getDefault().register(this);
-		CatchesInteractor catchesInteractor = new CatchesInteractorImpl(RetrofitInstance.getInstance().create(ApiService.class));
+		CatchesInteractor catchesInteractor = new CatchesInteractorImpl(RetrofitInstance.INSTANCE.getInstance().create(ApiService.class));
 		try {
 			catchesInteractor.fetchCatches("1");
 		} catch (IOException e) {
