@@ -16,20 +16,17 @@ import java.util.*
  */
 object RetrofitInstance {
 
-    var sharedInstance: Retrofit? = null
+    val sharedInstance: Retrofit
 
     init {
-        if (sharedInstance == null) {
-            sharedInstance = Retrofit.Builder()
-                    .addConverterFactory(converter)
-                    .baseUrl(BuildConfig.BASE_URL)
-                    .build()
-        }
 
-
+        sharedInstance = Retrofit.Builder()
+                .addConverterFactory(converter)
+                .baseUrl(BuildConfig.BASE_URL)
+                .build()
     }
 
-    val instance: Retrofit?
+    val instance: Retrofit
         get() {
             return sharedInstance
         }

@@ -25,7 +25,7 @@ class MainActivity : BaseActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.main)
         EventBus.getDefault().register(this)
-        val catchesInteractor = CatchesInteractorImpl(RetrofitInstance.instance!!.create(ApiService::class.java))
+        val catchesInteractor = CatchesInteractorImpl(RetrofitInstance.instance.create(ApiService::class.java))
         try {
             catchesInteractor.fetchCatches("1")
         } catch (e: IOException) {
@@ -41,6 +41,7 @@ class MainActivity : BaseActivity() {
 
     @Subscribe
     fun onEvent(event: CatchesEvent) {
-        Toast.makeText(this@MainActivity, event.data!!.size.toString() + " catches fetched!", Toast.LENGTH_LONG).show()
+        val numOfCatches = event.data?.size ?: 0
+        Toast.makeText(this@MainActivity,  "Great! " + numOfCatches + " catches fetched!", Toast.LENGTH_LONG).show()
     }
 }
