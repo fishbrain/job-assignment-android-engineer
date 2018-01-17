@@ -34,7 +34,7 @@ The API has the concept of verbosity. When requesting a specific resource we can
 **Example querying of the API:**
 
 - Get paged catches - https://rutilus-staging.fishbrain.com/catches?page=3
-- Get specific catch - https://rutilus-staging.fishbrain.com/catches/81?verbosity=3
+- Get specific catch - https://rutilus-staging.fishbrain.com/catches/4539?verbosity=3
 
 **General Guidelines**
 
