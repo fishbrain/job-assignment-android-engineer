@@ -40,7 +40,7 @@ The API has the concept of verbosity. When requesting a specific resource we can
 
 A base project is provided in this Git-repo as a starting point so you don't have to implement the networking yourself. However, if you want to you can create a project from scratch.
 
-The solution needs to contain tests and the design/structure of the application code should be production ready.
+The solution needs to **contain tests** and the design/structure of the application code should be **production ready** and **extensible**.
 
 Feel free to use the API level that you feel more comfortable with and any library that helps. Just be ready to explain the reasons behind your choices :)
 
@@ -48,7 +48,7 @@ The application has to be runnable and working without major issues.
 
 Include a readme file explaining potential challenges you faced and issues you met during the assignment.
 
-Ask any questions related to the implementation by sending an email to dimitris@fishbrain.com or johan.lundstrom@fishbrain.com, but Stack Overflow and Google are your first stops for any obvious questions.
+Ask any questions related to the implementation by sending an email to dimitris@fishbrain.com or kien@fishbrain.com, but Stack Overflow and Google are your first stops for any obvious questions.
 
 **What is this?**
 
