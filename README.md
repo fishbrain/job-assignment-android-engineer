@@ -48,7 +48,7 @@ The application has to be runnable and working without major issues.
 
 Include a readme file explaining potential challenges you faced and issues you met during the assignment.
 
-Ask any questions related to the implementation by sending an email to dimitris@fishbrain.com or johan.lundstrom@fishbrain.com, but Stack Overflow and Google are your first stops for any obvious questions.
+Ask any questions related to the implementation by sending an email to dimitris@fishbrain.com or kien@fishbrain.com, but Stack Overflow and Google are your first stops for any obvious questions.
 
 **What is this?**
 
