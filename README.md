@@ -44,11 +44,13 @@ Include a readme file explaining potential challenges you faced and issues you m
 
 Ask any questions related to the implementation by sending an email to dimitris@fishbrain.com or kien@fishbrain.com, but Stack Overflow and Google are your first stops for any obvious questions.
 
+
 ### Tips & Tricks
 
 Please use `q[s]=created_at desc` to get the latest catches.
 
 For the images in the JSON body you can use the last image of the array to get the best quality.
+
 
 **What is this?**
 
