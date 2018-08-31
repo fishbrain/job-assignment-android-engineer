@@ -4,23 +4,12 @@ The goal of this project is to assess Android development skills. It is designed
 
 - **Project Name:** Fishbrain Catches List
 - **Project Goal:** Creating a simplified version of the Fishbrain app that just includes a simple catches list.
-- **Technology:** Java
+- **Technology:** Kotlin/Java
 - **Deliverables:** The solution should be sent using the greenhouse.io link that will be provided during the interview process.
 
 **Mockups**: -
 
-**Description**: Create a list with the catches the user fetches from our backend.
-The user should be able to remove the catches he/she doesn't like.
-
-**Some UI guidelines**:
-
-The catch list item can have the following information:
-- User's profile image
-- *Johan* caught *a Pike* yesterday. All the italic can be clickable
-- Image with description
-- Like button
-
-Don't restrict yourself by the guidelines though, feel free to be creative and implement the UI the way you prefer!
+**Description**: Rebuild the catches view from the current Fishbrain app with filters in a master/details fashion. When opening the catch you should display some basic data and the full picture. Please skip the date/weight/length filters.
 
 
 **API to consume**:
@@ -34,13 +23,18 @@ The API has the concept of verbosity. When requesting a specific resource we can
 **Example querying of the API:**
 
 - Get paged catches - https://rutilus-staging.fishbrain.com/catches?page=3
-- Get specific catch - https://rutilus-staging.fishbrain.com/catches/81?verbosity=3
+- Get specific catch - https://rutilus.fishbrain.com/catches/81?verbosity=3
 
-**General Guidelines**
+- Filter by specific parameter - https://rutilus.fishbrain.com/catches/81?verbosity=3&q[species_id_eq]=258&q[s]=created_at%20desc
 
-A base project is provided in this Git-repo as a starting point so you don't have to implement the networking yourself. However, if you want to you can create a project from scratch.
+- supported filters: sort `q[s]=created_at desc`, species `q[species_id_eq]=id`, weight `weight_lt`, `weight_gt`, and owner `owner_id_eq`.
 
-The solution needs to contain tests and the design/structure of the application code should be production ready.
+**Guidelines**
+
+A base project is provided in this Git-repo as a starting point so you don't have to implement the networking part yourself. However, if you want to you can create a project from scratch.
+
+The design/structure of the application code should be **production ready** and **extensible**.
+Unit tests are optional but more than welcome.
 
 Feel free to use the API level that you feel more comfortable with and any library that helps. Just be ready to explain the reasons behind your choices :)
 
@@ -50,7 +44,28 @@ Include a readme file explaining potential challenges you faced and issues you m
 
 Ask any questions related to the implementation by sending an email to dimitris@fishbrain.com or kien@fishbrain.com, but Stack Overflow and Google are your first stops for any obvious questions.
 
+
+### Tips & Tricks
+
+Please use `q[s]=created_at desc` to get the latest catches.
+
+For the images in the JSON body you can use the last image of the array to get the best quality.
+
+
 **What is this?**
 
 This repo contains the job assignment for potential Android developers at Fishbrain, you can apply for a job at: jobs@fishbrain.com
 
+### FAQ
+
+**Can I use frameworks/libraries?**
+
+Yes.
+
+**How much time should I spend?**
+
+Don't overdo the assignment. We think 8 hours should be enough.
+
+**Kotlin or Java?**
+
+You're allowed to use either
