@@ -64,7 +64,7 @@ Yes.
 
 **How much time should I spend?**
 
-Don't overdo the assignment. We think 8 hours should be enough.
+Don't overdo the assignment. We think 4 hours should be enough.
 
 **Kotlin or Java?**
 
