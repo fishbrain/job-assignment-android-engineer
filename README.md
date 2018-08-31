@@ -8,9 +8,12 @@ The goal of this project is to assess Android development skills. It is designed
 - **Deliverables:** The solution should be sent using the greenhouse.io link that will be provided during the interview process.
 
 
-### Description: 
+### Your Task: 
 Rebuild the catches view from the current Fishbrain app with filters in a master/details fashion. When opening the catch you should display some basic data and the full picture. Please skip the date/weight/length filters.
 
+A base project is provided in this Git-repo as a starting point so you don't have to implement the networking part yourself. However, if you want to, you can create a project from scratch.
+
+Ask any questions related to the implementation by sending an email to dimitris@fishbrain.com or kien@fishbrain.com, but Stack Overflow and Google are your first stops for any obvious questions.
 
 ### API to consume:
 The networking and parsing for catches is already implemented in the base project in this Git-repo repo but here is some useful background info.
@@ -26,21 +29,15 @@ The API has the concept of verbosity. When requesting a specific resource we can
 - Filter by specific parameter - https://rutilus.fishbrain.com/catches/81?verbosity=3&q[species_id_eq]=258&q[s]=created_at%20desc
 - supported filters: sort `q[s]=created_at desc`, species `q[species_id_eq]=id`, weight `weight_lt`, `weight_gt`, and owner `owner_id_eq`.
 
-### Guidelines
+### Deliverables
 
-A base project is provided in this Git-repo as a starting point so you don't have to implement the networking part yourself. However, if you want to you can create a project from scratch.
-
-The design/structure of the application code should be **production ready** and **extensible**.
+- The design/structure of the application code should be **production ready** and **extensible**.
 Unit tests are optional but more than welcome.
-
-Feel free to use the API level that you feel more comfortable with and any library that helps. Just be ready to explain the reasons behind your choices :)
-
-The application has to be runnable and working without major issues.
-
-Include a readme file explaining potential challenges you faced and issues you met during the assignment.
-
-Ask any questions related to the implementation by sending an email to dimitris@fishbrain.com or kien@fishbrain.com, but Stack Overflow and Google are your first stops for any obvious questions.
-
+- Feel free to use the API level that you feel more comfortable with and any library that helps. Just be ready to explain the reasons behind your choices :)
+- The application has to be runnable and working without major issues.
+- Include a *README* file that includes:
+  - challenges/issues you faced during the assignment
+  - ways you can improve the application, be it performance, structure and patterns. Let us know of your thought process
 
 ### Tips & Tricks
 Please use `q[s]=created_at desc` to get the latest catches.
