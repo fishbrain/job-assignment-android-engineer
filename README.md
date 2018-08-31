@@ -4,7 +4,7 @@ The goal of this project is to assess Android development skills. It is designed
 
 - **Project Name:** Fishbrain Catches List
 - **Project Goal:** Creating a simplified version of the Fishbrain app that just includes a simple catches list.
-- **Technology:** Kotlin
+- **Technology:** Kotlin/Java
 - **Deliverables:** The solution should be sent using the greenhouse.io link that will be provided during the interview process.
 
 **Mockups**: -
